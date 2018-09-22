@@ -1,0 +1,40 @@
+/*
+
+!README.md
+!README.txt
+!text_file.txt.zip
+!webcreator.sh
+!.gitignore
+
+#Exclude the contents of object files and the executable itself
+!Crawler/
+Crawler/*
+!Crawler/include/
+!Crawler/source/
+!Crawler/Makefile
+#include empty object/ directory, nothing else, only dummy .gitkeep file
+!Crawler/object/
+Crawler/object/*
+!Crawler/object/.gitkeep
+#include empty save_dir/ directory...
+!Crawler/save_dir/
+Crawler/save_dir/*
+!Crawler/save_dir/.gitkeep
+
+!Server/
+Server/*
+!Server/include/
+!Server/source/
+!Server/Makefile
+#include empty object/ directory
+!Server/object/
+Server/object/*
+!Server/object/.gitkeep
+
+
+#dont include the contents, but only the empty directory
+!root_directory
+root_directory/*
+!/root_directory/.gitkeep
+
+#NOTE: You can't commit empty folders to git, so i use a dummy file called .gitkeep to include them
