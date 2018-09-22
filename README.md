@@ -1,4 +1,4 @@
-#Unpolished
+# Unpolished
 This project is unoptimized and unpolished currently. It is scheduled for some love and maintenace as soon as i find the time for it.
 
 # Run and Compile
